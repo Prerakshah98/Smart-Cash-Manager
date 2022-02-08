@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/chartray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/cray"
+        android:visibility="gone"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<Button-->
+                <!--android:textColor="@color/darkbrown"-->
+                <!--android:padding="5dp"-->
+                <!--android:background="@drawable/edittext_back"-->
+                <!--android:id="@+id/expensereports"-->
+                <!--android:text="Income Reports"-->
+
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"/>-->
+            <!--<Button-->
+                <!--android:textColor="@color/darkbrown"-->
+                <!--android:padding="5dp"-->
+                <!--android:background="@drawable/edittext_back"-->
+                <!--android:id="@+id/incomereports"-->
+
+                <!--android:text="Income Reports"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"/>-->
+            <!--<Button-->
+                <!--android:textColor="@color/darkbrown"-->
+                <!--android:padding="5dp"-->
+                <!--android:background="@drawable/edittext_back"-->
+
+                <!--android:id="@+id/income-expensereports"-->
+                <!--android:text="Income-Expense Reports"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"/>-->
+
+            <TextView
+                android:textColor="@color/darkviolet"
+                android:text="2017-09-25 - 2017-10-27"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/htxt"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:background="@android:color/white"
+                android:layout_margin="10dp"
+                android:id="@+id/linechart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+        <TableRow
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/hedit"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/cal"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+        </TableRow>
+    </RelativeLayout>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:textColor="@color/darkviolet"
+            android:padding="5dp"
+            android:background="@drawable/edittext_back"
+            android:id="@+id/selectdate"
+            android:text="Select Date"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </TableRow>
+</android.support.design.widget.CoordinatorLayout>

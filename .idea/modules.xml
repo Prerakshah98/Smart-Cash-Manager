@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SmartCashManager-master.iml" filepath="$PROJECT_DIR$/SmartCashManager-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\HardikG\Desktop\SmartCashManager-master\app\app.iml" filepath="C:\Users\HardikG\Desktop\SmartCashManager-master\app\app.iml" />
+      <module fileurl="file://C:\Users\HardikG\Desktop\SmartCashManager-master\smartcashmanager.iml" filepath="C:\Users\HardikG\Desktop\SmartCashManager-master\smartcashmanager.iml" />
+    </modules>
+  </component>
+</project>

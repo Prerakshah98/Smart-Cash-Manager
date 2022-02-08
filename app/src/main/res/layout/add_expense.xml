@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adderay"
+    android:background="@drawable/backgroundlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s528755.smartcashmanager.Add_Expense">
+
+    <TableLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/esrc_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Source of Expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/esrc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:hint="Source of Expense"
+                    android:inputType="textPersonName"
+                    android:padding="1dp"
+                    android:textColorHint="@color/lightviolet" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/eamt_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/lightviolet"
+                    android:layout_marginTop="5dp"
+                    android:padding="1dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/eamt"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/etype_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Mode of Expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/lightviolet"
+                    android:layout_marginTop="5dp"
+                    android:padding="1dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/etype"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mode of Expense" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="20dp"
+                    android:text="Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:padding="1dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/edate"
+                    android:layout_marginTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Time"
+                    android:textColor="@color/lightviolet"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/etime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:padding="1dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+                <TextView
+                    android:id="@+id/ebal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:padding="1dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@android:color/black"
+                    />
+
+
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/baltb"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/expensePhoto"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_back"
+                    android:onClick="images"
+                    android:paddingTop="15dp"
+                    android:text="Select Photo"
+                    android:textColor="@color/darkviolet"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/expenseimagename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="8sp"
+                    android:layout_weight="0.43" />
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:textSize="20dp"
+                android:textColor="@color/darkviolet"
+                android:background="@drawable/edittext_back"
+                android:layout_marginRight="10dp"
+                android:text="Save"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/esave" />
+
+            <Button
+                android:textSize="20dp"
+                android:textColor="@color/darkviolet"
+                android:background="@drawable/edittext_back"
+                android:text="Clear"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/eclear" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

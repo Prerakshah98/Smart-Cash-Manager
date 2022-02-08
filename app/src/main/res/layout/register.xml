@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlogin"
+    tools:context="com.example.s528755.smartcashmanager.Register">
+
+    <TableLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/name_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/name"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/cont_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Mobile Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/cont"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mobile Number" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/pass_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/pass"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/cpass_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Confirm Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/cpass"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:textSize="20dp"
+                android:background="@drawable/edittext_back"
+                android:textColor="@color/darkviolet"
+                android:padding="5dp"
+                android:text="Submit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/register" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

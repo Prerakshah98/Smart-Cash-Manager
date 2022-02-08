@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addray"
+    android:background="@drawable/backgroundlogin"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/isrc_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Source of Income"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/lightviolet"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/isrc"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Source of Income" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/iamt_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/lightviolet"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/iamt"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount" />
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="invisible"
+                    android:id="@+id/itype_h"
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Mode of Income"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:textColorHint="@color/lightviolet"
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/itype"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mode of Income" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textColor="@color/lightviolet"
+                    android:layout_marginLeft="5dp"
+                    android:text="Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:id="@+id/idate"
+                    android:layout_marginTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/lightviolet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Time"
+                     />
+
+                <TextView
+                    android:id="@+id/itime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <Button
+                    android:id="@+id/incomePhoto"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Select Photo"
+                    android:textColor="@color/darkviolet"
+                    android:background="@drawable/edittext_back"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/incomeimagename"
+                    android:layout_width="146dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edittext_back"
+                    android:padding="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="8sp" />
+
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:textSize="20dp"
+                android:textColor="@color/darkviolet"
+                android:background="@drawable/edittext_back"
+                android:layout_marginRight="10dp"
+                android:text="Save"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/isave" />
+
+            <Button
+                android:textSize="20dp"
+                android:textColor="@color/darkviolet"
+                android:background="@drawable/edittext_back"
+                android:text="Clear"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/iclear" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

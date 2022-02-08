@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Cash Manager</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Incomes</item>
+        <item>Add Incomes</item>
+        <item>Expenses</item>
+        <item>Add Expenses</item>
+        <item>Reports</item>
+        <item>Add Image</item>
+        <item>Logout</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/list</item>
+        <item>@drawable/income</item>
+        <item>@drawable/list</item>
+        <item>@drawable/expense</item>
+        <item>@drawable/special</item>
+        <item>@drawable/graph</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
