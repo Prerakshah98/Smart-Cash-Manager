@@ -5,14 +5,14 @@ In this project we are developing an application in which it will allow users to
 What are the achieved Features of the application?
 
 In this Smart cash manager entity, we have attributes like add income, add expense, view income/ expense, and add savings. In this table add expense, add income, and add savings are the composite primary key in which we can uniquely identify one cash transaction (which is nothing but addition of income, expense and savings to the database).
-
+<ul>
 •	This application create unique account to all the users. 
 •	This application allows user to add expenses and income.
 •	This application has special feature to see remaining balance which user can spend.
 •	This applications allows user to add records at any time.
 •	This Application allows user to view the report of expense and income for a certain period.
-•	This application allows the user can take reciept phot for the expenses or user can select it from gallery.
-
+•	<li>This application allows the user can take reciept phot for the expenses or user can select it from gallery.
+</ul?
 
 What is the Sequence Information of the application ?
 New User ---> SignUp --->SignIn (with generated credentials) --->Home page --> Actionbar (NavigationControls)  ---> (Home, income, add income, expenses, add expenses, reports, logout).
